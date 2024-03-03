@@ -6,20 +6,17 @@
     /* font-weight: <weight>; */
     font-style: normal;
     font-variation-settings:"slnt" 0;
-}
-body{
-    background-color: hsl(0, 0%, 8%);
-}
-@media screen and (max-width:1440px) {
-    *{
-        margin: 0;padding: 0;
-        box-sizing: border-box;
-        font-family: "Inter", sans-serif;
-        font-optical-sizing: auto;
-        /* font-weight: <weight>; */
-        font-style: normal;
-        font-variation-settings:"slnt" 0;
+
+    .git:hover{
+        background-color: hsl(75, 94%, 57%);   
     }
+    .git:hover #l1,.git:hover #l2,.git:hover #l3,.git:hover #l4,.git:hover #l5{
+        color: black;
+    }
+    body{
+        background-color: hsl(0, 0%, 8%);
+    }
+}
         /* // <uniquifier>: Use a unique and descriptive class name
     // <weight>: Use a value from 100 to 900
 
@@ -31,96 +28,164 @@ body{
   font-variation-settings:
     "slnt" 0;
 } */
-body{
-    background-color: hsl(0, 0%, 8%);
-}
-.card{
-    border: 2px solid transparent;
-    width: 400px;
-    margin-left: 512px;
-    margin-top: 70px;
-    background-color: hsl(0, 0%, 12%);
-    border-radius: 11px;
-}
-.image{
-    width: 70px;height: 70px;
-    /* border: 2px solid blue; */
-    margin-left: 160px;
-    margin-top: 40px;
-}
-img{
-    width: 70px;height: 70px;
-    border-radius: 100%;
-    /* margin-left: 125px; */
-}
-.content{
-    /* border: 2px solid green; */
-    width: 400px;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-.content h2{
-    font-weight: 700;
-    font-size: 20px;
-    padding-bottom: 8px;
-    color:hsl(0, 0%, 100%);
-}
-.content .p1{
-    font-weight: bold;
-    font-size: 14.5px;
-    padding-bottom: 18px;
-    color: hsl(75, 94%, 57%);
-}
-.content .p2{
-    font-weight: 250;
-    font-size: 14.5px;
-    text-align: center;
-    color:hsl(0, 0%, 100%);
-}
-.profiles{
-    /* border: 2px solid yellow; */
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 25px;
-}
-.git{
-    /* border: 2px solid blue; */
-    border-radius: 8px;
-    margin-top: 20px;
-    /* margin-bottom: 15px; */
-    width: 300px; height: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(0, 0%, 20%);
-}
-.git a{
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 18px;
-    color:hsl(0, 0%, 100%);
-}
-.git:hover{
-    background-color: hsl(75, 94%, 57%);   
-}
-.git:hover #l1,.git:hover #l2,.git:hover #l3,.git:hover #l4,.git:hover #l5{
-    color: black;
-}
-}
-@media screen and (min-width:375px){
+@media screen and (max-width:1440px) {
     .card{
         border: 2px solid transparent;
+        width: 400px;
+        margin-left: 495px;
+        margin-top: 70px;
+        background-color: hsl(0, 0%, 12%);
+        border-radius: 11px;
+    }
+    .image{
+        width: 70px;height: 70px;
+        /* border: 2px solid blue; */
+        margin-left: 160px;
+        margin-top: 40px;
+    }
+    img{
+        width: 70px;height: 70px;
+        border-radius: 100%;
+        /* margin-left: 125px; */
+    }
+    .content{
+        /* border: 2px solid green; */
+        width: 400px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .content h2{
+        font-weight: 700;
+        font-size: 20px;
+        padding-bottom: 8px;
+        color:hsl(0, 0%, 100%);
+    }
+    .content .p1{
+        font-weight: bold;
+        font-size: 14.5px;
+        padding-bottom: 18px;
+        color: hsl(75, 94%, 57%);
+    }
+    .content .p2{
+        font-weight: 250;
+        font-size: 14.5px;
+        text-align: center;
+        color:hsl(0, 0%, 100%);
+    }
+    .profiles{
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    .git{
+        /* border: 2px solid blue; */
+        border-radius: 8px;
+        margin-top: 20px;
+        /* margin-bottom: 15px; */
+        width: 300px; height: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(0, 0%, 20%);
+    }
+    .git a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+        color:hsl(0, 0%, 100%);
+    }
+    
+}
+@media screen and (width:320px) {
+    .card{
+        border: 0.44px solid transparent;
+        width: 88.89px;
+        margin-left: 113px;
+        margin-top: 77px;
+        background-color: hsl(0, 0%, 12%);
+        border-radius: 11px;
+    }
+    .image{
+        width: 15.56px;height: 15.56px;
+        /* border: 2px solid blue; */
+        margin-left: 35.56px;
+        margin-top: 8.89px;
+    }
+    img{
+        width: 15.56px;height: 15.56px;
+        border-radius: 100%;
+        /* margin-left: 125px; */
+    }
+    .content{
+        /* border: 2px solid green; */
+        width: 88.89px;
+        margin-top: 7px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .content h2{
+        font-weight: 700;
+        font-size: 4.44px;
+        padding-bottom: 1.78px;
+        color:hsl(0, 0%, 100%);
+    }
+    .content .p1{
+        font-weight: bold;
+        font-size: 3.22px;
+        padding-bottom: 4px;
+        color: hsl(75, 94%, 57%);
+    }
+    .content .p2{
+        font-weight: 250;
+        font-size: 3.22px;
+        text-align: center;
+        color:hsl(0, 0%, 100%);
+    }
+    .profiles{
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5.56px;
+    }
+    .git{
+        /* border: 2px solid blue; */
+        border-radius: 1.78px;
+        margin-top: 4.44px;
+        /* margin-bottom: 15px; */
+        width: 66.67px; height: 8.89px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(0, 0%, 20%);
+    }
+    .git a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 4px;
+        color:hsl(0, 0%, 100%);
+    }
+}
+@media screen and (width:375px) {
+    .card{
+        border: 0.52px solid transparent;
         width: 104.17px;
-        margin-left: 133.33px;
-        margin-right: 133.33px;
+        margin-left: 130.156px;
         margin-top: 18.23px;
         background-color: hsl(0, 0%, 12%);
         border-radius: 2.864px;
@@ -139,7 +204,7 @@ img{
     .content{
         /* border: 2px solid green; */
         width: 104.17px;
-        margin-top: 7.81px;
+        margin-top: 7.812px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -148,14 +213,14 @@ img{
     }
     .content h2{
         font-weight: 700;
-        font-size: 5.73px;
+        font-size: 5.2px;
         padding-bottom: 2.08px;
         color:hsl(0, 0%, 100%);
     }
     .content .p1{
         font-weight: bold;
         font-size: 3.77px;
-        padding-bottom: 4.69px;
+        padding-bottom: 4.687px;
         color: hsl(75, 94%, 57%);
     }
     .content .p2{
@@ -164,18 +229,9 @@ img{
         text-align: center;
         color:hsl(0, 0%, 100%);
     }
-    .profiles{
-        /* border: 2px solid yellow; */
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 6.51px;
-    }
     .git{
         /* border: 2px solid blue; */
-        border-radius: 2.08px;
+        border-radius: 2.083px;
         margin-top: 5.20px;
         /* margin-bottom: 15px; */
         width: 78.125px; height: 10.42px;
@@ -188,13 +244,235 @@ img{
     .git a{
         text-decoration: none;
         font-weight: 600;
-        font-size: 4.69px;
+        font-size: 4.687px;
         color:hsl(0, 0%, 100%);
     }
-    .git:hover{
-        background-color: hsl(75, 94%, 57%);   
+}
+@media screen and (width:425px) {
+    .card{
+        border: 0.59px solid transparent;
+        width: 118.05px;
+        margin-left: 146.84px;
+        margin-top: 20.66px;
+        background-color: hsl(0, 0%, 12%);
+        border-radius: 3.24px;
     }
-    .git:hover #l1,.git:hover #l2,.git:hover #l3,.git:hover #l4,.git:hover #l5{
-        color: black;
+    .image{
+        width: 20.66px;height: 20.66px;
+        /* border: 2px solid blue; */
+        margin-left: 47.22px;
+        margin-top: 11.80px;
+    }
+    img{
+        width: 20.66px;height: 20.66px;
+        border-radius: 100%;
+        /* margin-left: 125px; */
+    }
+    .content{
+        /* border: 2px solid green; */
+        width: 118.05px;
+        margin-top: 8.85px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .content h2{
+        font-weight: 700;
+        font-size: 5.90px;
+        padding-bottom: 2.36px;
+        color:hsl(0, 0%, 100%);
+    }
+    .content .p1{
+        font-weight: bold;
+        font-size: 4.28px;
+        padding-bottom: 5.31px;
+        color: hsl(75, 94%, 57%);
+    }
+    .content .p2{
+        font-weight: 250;
+        font-size: 4.28px;
+        text-align: center;
+        color:hsl(0, 0%, 100%);
+    }
+    .profiles{
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 7.37px;
+    }
+    .git{
+        /* border: 2px solid blue; */
+        border-radius: 2.36px;
+        margin-top: 5.90px;
+        /* margin-bottom: 15px; */
+        width: 88.54px; height: 11.80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(0, 0%, 20%);
+    }
+    .git a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 5.31px;
+        color:hsl(0, 0%, 100%);
+    }
+}
+@media screen and (width:768px) {
+    .card{
+        border: 1.06px solid transparent;
+        width: 213.33px;
+        margin-left: 274.6px;
+        margin-top: 37.33px;
+        background-color: hsl(0, 0%, 12%);
+        border-radius: 5.87px;
+    }
+    .image{
+        width: 37.33px;height: 37.33px;
+        /* border: 2px solid blue; */
+        margin-left: 85.33px;
+        margin-top: 21.33px;
+    }
+    img{
+        width: 37.33px;height: 37.33px;
+        border-radius: 100%;
+        /* margin-left: 125px; */
+    }
+    .content{
+        /* border: 2px solid green; */
+        width: 213.33px;
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .content h2{
+        font-weight: 700;
+        font-size: 10.67px;
+        padding-bottom: 4.27px;
+        color:hsl(0, 0%, 100%);
+    }
+    .content .p1{
+        font-weight: bold;
+        font-size: 7.73px;
+        padding-bottom: 9.6px;
+        color: hsl(75, 94%, 57%);
+    }
+    .content .p2{
+        font-weight: 250;
+        font-size: 7.73px;
+        text-align: center;
+        color:hsl(0, 0%, 100%);
+    }
+    .profiles{
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 13.33px;
+    }
+    .git{
+        /* border: 2px solid blue; */
+        border-radius: 4.27px;
+        margin-top: 10.67px;
+        /* margin-bottom: 15px; */
+        width: 160px; height: 21.33px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(0, 0%, 20%);
+    }
+    .git a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 9.6px;
+        color:hsl(0, 0%, 100%);
+    }
+}
+@media screen and (width:1024px) {
+    .card{
+        border: 1.42px solid transparent;
+        width: 284.44px;
+        margin-left: 357.8px;
+        margin-top: 49.78px;
+        background-color: hsl(0, 0%, 12%);
+        border-radius: 7.82px;
+    }
+    .image{
+        width: 49.78px;height: 49.78px;
+        /* border: 2px solid blue; */
+        margin-left: 113.78px;
+        margin-top: 28.44px;
+    }
+    img{
+        width: 49.78px;height: 49.78px;
+        border-radius: 100%;
+        /* margin-left: 125px; */
+    }
+    .content{
+        /* border: 2px solid green; */
+        width: 284.44px;
+        margin-top: 21.33px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .content h2{
+        font-weight: 700;
+        font-size: 14.22px;
+        padding-bottom: 5.69px;
+        color:hsl(0, 0%, 100%);
+    }
+    .content .p1{
+        font-weight: bold;
+        font-size: 10.31px;
+        padding-bottom: 12.8px;
+        color: hsl(75, 94%, 57%);
+    }
+    .content .p2{
+        font-weight: 250;
+        font-size: 10.31px;
+        text-align: center;
+        color:hsl(0, 0%, 100%);
+    }
+    .profiles{
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 17.78px;
+    }
+    .git{
+        /* border: 2px solid blue; */
+        border-radius: 5.69px;
+        margin-top: 14.22px;
+        /* margin-bottom: 15px; */
+        width: 213.33px; height: 28.44px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(0, 0%, 20%);
+    }
+    .git a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 12.8px;
+        color:hsl(0, 0%, 100%);
     }
 }
