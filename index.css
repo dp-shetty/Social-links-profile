@@ -108,8 +108,11 @@ img{
     font-size: 18px;
     color:hsl(0, 0%, 100%);
 }
-.git a:hover{
-    background-color: hsl(75, 94%, 57%);
+.git:hover{
+    background-color: hsl(75, 94%, 57%);   
+}
+.git:hover #l1,.git:hover #l2,.git:hover #l3,.git:hover #l4,.git:hover #l5{
+    color: black;
 }
 }
 @media screen and (min-width:375px){
@@ -188,7 +191,10 @@ img{
         font-size: 4.69px;
         color:hsl(0, 0%, 100%);
     }
-    .git a:hover{
-        background-color: hsl(75, 94%, 57%);
+    .git:hover{
+        background-color: hsl(75, 94%, 57%);   
+    }
+    .git:hover #l1,.git:hover #l2,.git:hover #l3,.git:hover #l4,.git:hover #l5{
+        color: black;
     }
 }
