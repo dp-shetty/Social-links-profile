@@ -108,8 +108,11 @@ img{
     font-size: 18px;
     color:hsl(0, 0%, 100%);
 }
+.git a:hover{
+    background-color: hsl(75, 94%, 57%);
 }
-@media screen and (width:375px){
+}
+@media screen and (min-width:375px){
     .card{
         border: 2px solid transparent;
         width: 104.17px;
@@ -184,5 +187,8 @@ img{
         font-weight: 600;
         font-size: 4.69px;
         color:hsl(0, 0%, 100%);
+    }
+    .git a:hover{
+        background-color: hsl(75, 94%, 57%);
     }
 }
