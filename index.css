@@ -1,0 +1,98 @@
+@media screen and (max-width:1440px) {
+    *{
+        margin: 0;padding: 0;
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        /* font-weight: <weight>; */
+        font-style: normal;
+        font-variation-settings:"slnt" 0;
+    }
+        /* // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+} */
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+.card{
+    border: 2px solid transparent;
+    width: 400px;
+    margin-left: 512px;
+    margin-top: 70px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 11px;
+}
+.image{
+    width: 70px;height: 70px;
+    /* border: 2px solid blue; */
+    margin-left: 160px;
+    margin-top: 40px;
+}
+img{
+    width: 70px;height: 70px;
+    border-radius: 100%;
+    /* margin-left: 125px; */
+}
+.content{
+    /* border: 2px solid green; */
+    width: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.content h2{
+    font-weight: 700;
+    padding-bottom: 8px;
+    color:hsl(0, 0%, 100%);
+}
+.content .p1{
+    font-weight: bold;
+    font-size: 14.5px;
+    padding-bottom: 18px;
+    color: hsl(75, 94%, 57%);
+}
+.content .p2{
+    font-weight: 250;
+    font-size: 14.5px;
+    text-align: center;
+    color:hsl(0, 0%, 100%);
+}
+.profiles{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.git{
+    /* border: 2px solid blue; */
+    border-radius: 8px;
+    margin-top: 20px;
+    /* margin-bottom: 15px; */
+    width: 300px; height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 20%);
+}
+.git a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color:hsl(0, 0%, 100%);
+}
+}
